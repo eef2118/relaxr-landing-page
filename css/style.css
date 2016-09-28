@@ -1,0 +1,231 @@
+/*
+Project Name: Relaxr Website
+Client: Relaxr
+Author: Elisabeth Soto
+Developer @GA in NYC
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+.logo {
+  margin-right: 500px;
+   margin-bottom: 400px;}
+
+.header {
+ background-image: url(../images/header_bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 550px;
+ color: #ffffff;
+ 
+}
+
+.company
+{
+	font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 100px;
+
+}
+
+.company-yellow
+
+{ color: #f9e42e;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 60px;
+}
+
+
+.button {
+  padding: 10px 15px;
+  background-color: #f9e42e;
+  margin: 75px 530px;
+  text-align: center;
+  width: 200px; 
+  border-radius: 3px;
+  color: #033048;
+  font-size: 20px;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+h1 
+
+{
+	padding-top: 150px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.box
+
+{
+
+ width: 600px;
+ height: 200px;
+ padding: 0px;
+ border: 0px;
+ margin: 75px 225px 150px 225px; 
+ box-sizing: content-box; 
+
+ }
+
+h2
+
+ { 
+
+   color: #033048;
+   font-weight: 700;
+   font-size: 30px;
+   align: center;
+   padding-bottom: 30px;
+}
+
+.author
+
+ { 
+   color: #ffffff;
+   text-align: center;
+   font-weight: 600;
+   
+  
+}
+
+ p  
+
+ {  color: #606060;
+ 	font-weight: 400;
+ 	font-size: 22px;
+    align: center;
+ }
+
+ ul 
+
+ {
+
+ 	color: #606060;
+ 	font-weight: 400;
+ 	font-size: 22px;
+    align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    line-height: 30px;
+
+ }
+
+ .testimonial {
+ background-image: url(../images/testimonial_bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 375px;
+ color: #ffffff;
+ 
+}
+
+blockquote
+
+{ font-style: italic; 
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+	float: center
+	margin: 100px 300px;
+	padding: 100px 350px 20px 350px;
+
+}
+
+.lowersection
+
+{ padding: 5px 10px;
+  background-color: #f9e42e;
+  height: 100px;
+  align-content: center; }
+
+  .button2 
+
+  {
+
+ 	padding: 10px 15px;
+  	background-color: #033048;
+  	margin: 20px 530px;
+  	text-align: center;
+  	width: 200px; 
+  	border-radius: 3px;
+  	color: #ffffff;
+  	font-size: 20px;
+  	font-weight: 600;
+}
+
+.social
+
+{
+ padding: 50px 50px;
+ text-align:center;
+}
+
+.media
+
+{
+	padding: 20px 20px;
+
+}
+
+.copyright
+
+{ 
+
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center; }
+
+
+footer
+
+{ padding: 5px 10px;
+  background-color: #121211;
+  height: 400px;
+  align-content: center; }
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
